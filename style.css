@@ -92,25 +92,10 @@ left: 35PX;
 /*/////////////////////////////////////////////////////////////////////*/
 
 
-
-video {
-    width: 640px;
-    height: 450px;
-    text-align: center;
-    margin-left: 75px;
-
-}
-
-.radio video  {
-    width: 640px;
-    height: 100px!important;
-
-
-}
-
 iframe {
     border : 1px solid #707b7c ;
     box-shadow:  2px 2px 2px #bfc9ca;
+    margin-top: 20px;
    
 }
 
