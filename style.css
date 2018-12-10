@@ -524,7 +524,7 @@ footer p {
 
 .rond1  {
     position: fixed;
-    top:30%;
+    top:20%;
    left: 18%;
     width:150px;
     height :150px;
@@ -554,7 +554,7 @@ footer p {
 
 .rond3  {
     position: fixed;
-    top:50%;
+    top:60%;
     right: 42%;
     width:150px;
     height :150px;
@@ -569,7 +569,7 @@ footer p {
 
 .rond4  {
     position: fixed;
-    top:60%;
+    top:80%;
     right: 42%;
     width:150px;
     height :150px;
@@ -583,23 +583,11 @@ footer p {
 }
 
 .perso {
-     position: fixed;
-    top: 70%;
-   text-align: center;
+   visibility: hidden;
     
 }
 
-footer {
 
-    width: 100%; 
-    background-color:  #E5E7E9   ;
-    height: 50px;
-    top: 90%;
-    position: fixed;
-    bottom: 0;
-    
-
-}
 
 
 
