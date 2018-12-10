@@ -496,76 +496,7 @@ footer p {
 
 @viewport {
    width: device-width; /* largeur du viewport */
-   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
-
-
-
-.rond1  {
-    position: fixed;
-    top:10%;
-    right: 42%;
-    width:150px;
-    height :150px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    border-radius:100px;
-    display: block;
-
-   
-}
-
-.rond2  {
-    position: fixed;
-    top:20%;
-    right: 42%;
-    width:150px;
-    height :150px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    border-radius:100px;
-    display: block;
-
-   
-}
-
-.rond3  {
-    position: fixed;
-      top:30%;
-    right: 42%;
-    width:150px;
-    height :150px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    border-radius:100px;
-    display: block;
-
-   
-}
-
-.rond4  {
-    position: fixed;
-    top:40%;
-    right: 42%;
-    width:150px;
-    height :150px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    border-radius:100px;
-    display: block;
-
-   
-}
-
-.perso {
-     position: relative;
-    top: 50%;
-   text-align: center;
-    
-}
+   zoom: 0,5; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
 
 
 }
