@@ -482,7 +482,7 @@ footer {
     width: 100%; 
     background-color:  #E5E7E9   ;
     height: 50px;
-    position: fixed;
+   
     bottom: 0;
     
 
@@ -491,12 +491,15 @@ footer {
 footer p {
     text-align: center;
     font-size: 12px;
+
 }
 
 /*/////////////////////////////////////////////////////////////////////*/
 
 
-@media screen and (min-width: 300px) and (max-width: 950px ) {
+@media (max-width: 640px) {
+/* CSS mobile ici */
+
   
 
 
