@@ -482,7 +482,7 @@ footer {
     width: 100%; 
     background-color:  #E5E7E9   ;
     height: 50px;
-   
+   position: fixed;
     bottom: 0;
     
 
