@@ -521,8 +521,8 @@ footer p {
 
 .rond1  {
     position: fixed;
-    top: 200px;
-    left: 0px;
+    top:10%;
+    right: 42%;
     width:150px;
     height :150px;
     -webkit-border-radius:100px;
@@ -536,8 +536,8 @@ footer p {
 
 .rond2  {
     position: fixed;
-    top: 400px;
-    left: 0px;
+    top:20%;
+    right: 42%;
     width:150px;
     height :150px;
     -webkit-border-radius:100px;
@@ -551,8 +551,8 @@ footer p {
 
 .rond3  {
     position: fixed;
-    top: 600px;
-    left: 0px;
+      top:30%;
+    right: 42%;
     width:150px;
     height :150px;
     -webkit-border-radius:100px;
@@ -566,8 +566,8 @@ footer p {
 
 .rond4  {
     position: fixed;
-    top: 800px;
-    left: 0px;
+    top:40%;
+    right: 42%;
     width:150px;
     height :150px;
     -webkit-border-radius:100px;
@@ -580,11 +580,9 @@ footer p {
 }
 
 .perso {
-     position: fixed;
-    top: 1200px;
-    left: 0px;
-    display: block;
-    
+     position: relative;
+    top: 50%;
+   text-align: center;
     
 }
 
