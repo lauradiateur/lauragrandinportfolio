@@ -502,7 +502,7 @@ footer p {
 
 @media only screen and (max-device-width:480px) {
  
- 
+
 #conteneur6 {
       display: flex;
     flex-direction: column;
@@ -524,7 +524,7 @@ footer p {
 
 .rond1  {
     position: fixed;
-    top:10%;
+    top:30%;
     right: 42%;
     width:150px;
     height :150px;
@@ -539,7 +539,7 @@ footer p {
 
 .rond2  {
     position: fixed;
-    top:20%;
+    top:40%;
     right: 42%;
     width:150px;
     height :150px;
@@ -554,7 +554,7 @@ footer p {
 
 .rond3  {
     position: fixed;
-      top:30%;
+    top:50%;
     right: 42%;
     width:150px;
     height :150px;
@@ -569,7 +569,7 @@ footer p {
 
 .rond4  {
     position: fixed;
-    top:40%;
+    top:60%;
     right: 42%;
     width:150px;
     height :150px;
@@ -583,8 +583,8 @@ footer p {
 }
 
 .perso {
-     position: relative;
-    top: 50%;
+     position: fixed;
+    top: 70%;
    text-align: center;
     
 }
