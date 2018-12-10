@@ -556,9 +556,9 @@ footer p {
 .rond3  {
     position: fixed;
     top:50%;
-    right: 42%;
-    width:30%;
-    height :30%;
+    right: 40%;
+    width : 15%;
+    height :15%;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -571,9 +571,9 @@ footer p {
 .rond4  {
     position: fixed;
     top:70%;
-    right: 42%;
-    width:30%;
-    height :30%;
+    right: 40%;
+    width:15%;
+    height :15%;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
