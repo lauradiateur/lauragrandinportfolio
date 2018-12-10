@@ -527,8 +527,8 @@ footer p {
     position: fixed;
     top:10%;
    left: 18%;
-    width:100px;
-    height :100px;
+    width:120px;
+    height :120px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -542,8 +542,8 @@ footer p {
     position: fixed;
     top:30%;
    left: 18%;
-    width:100px;
-    height :100px;
+    width:120px;
+    height :120px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -556,9 +556,9 @@ footer p {
 .rond3  {
     position: fixed;
     top:50%;
-    right: 38%;
-    width : 100px;
-    height :100px;
+    right: 47%;
+    width : 120px;
+    height :120px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -571,9 +571,9 @@ footer p {
 .rond4  {
     position: fixed;
     top:70%;
-    right: 38%;
-    width:100px;
-    height :100px;
+    right: 47%;
+    width:120px;
+    height :120px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -600,6 +600,11 @@ h1 {
    font-size: 9px ;
 }
 
+footer p {
+    text-align: center;
+    font-size: 9px;
+
+}
 
 
 }
