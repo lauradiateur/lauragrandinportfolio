@@ -525,7 +525,7 @@ footer p {
 .rond1  {
     position: fixed;
     top:30%;
-    right: 42%;
+   left: 18%;
     width:150px;
     height :150px;
     -webkit-border-radius:100px;
@@ -540,7 +540,7 @@ footer p {
 .rond2  {
     position: fixed;
     top:40%;
-    right: 42%;
+   left: 18%;
     width:150px;
     height :150px;
     -webkit-border-radius:100px;
@@ -588,6 +588,19 @@ footer p {
    text-align: center;
     
 }
+
+footer {
+
+    width: 100%; 
+    background-color:  #E5E7E9   ;
+    height: 50px;
+    top: 90%;
+    position: fixed;
+    bottom: 0;
+    
+
+}
+
 
 
 }
