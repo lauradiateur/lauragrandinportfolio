@@ -503,6 +503,7 @@ footer p {
 @media only screen and (max-device-width:480px) {
  
 
+
 #conteneur6 {
       display: flex;
     flex-direction: column;
@@ -526,8 +527,8 @@ footer p {
     position: fixed;
     top:10%;
    left: 18%;
-    width:150px;
-    height :150px;
+    width:30%;
+    height :30%;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -541,8 +542,8 @@ footer p {
     position: fixed;
     top:30%;
    left: 18%;
-    width:150px;
-    height :150px;
+    width:30%;
+    height :30%;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -556,8 +557,8 @@ footer p {
     position: fixed;
     top:50%;
     right: 42%;
-    width:150px;
-    height :150px;
+    width:30%;
+    height :30%;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -571,8 +572,8 @@ footer p {
     position: fixed;
     top:70%;
     right: 42%;
-    width:150px;
-    height :150px;
+    width:30%;
+    height :30%;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -589,14 +590,14 @@ footer p {
 
 h1 {
  
-    font-size: 20px ;
+    font-size: 15px ;
    
 }
 
-h2 {
+.description{
 
 
-   font-size: 10px ;
+   font-size: 9px ;
 }
 
 
