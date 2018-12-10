@@ -527,8 +527,8 @@ footer p {
     position: fixed;
     top:10%;
    left: 18%;
-    width:20%;
-    height :20%;
+    width:100px;
+    height :100px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -542,8 +542,8 @@ footer p {
     position: fixed;
     top:30%;
    left: 18%;
-    width:20%;
-    height :20%;
+    width:100px;
+    height :100px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -556,9 +556,9 @@ footer p {
 .rond3  {
     position: fixed;
     top:50%;
-    right: 42%;
-    width : 20%;
-    height :20%;
+    right: 38%;
+    width : 100px;
+    height :100px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
@@ -571,9 +571,9 @@ footer p {
 .rond4  {
     position: fixed;
     top:70%;
-    right: 42%;
-    width:20%;
-    height :20%;
+    right: 38%;
+    width:100px;
+    height :100px;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -o-border-radius:100px;
