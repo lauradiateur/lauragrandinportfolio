@@ -2,9 +2,12 @@ body {
 	background-color:  #f3f3f3;
     font-family: 'Poppins', sans-serif;
 
+
      /*-- background-image: radial-gradient(closest-side ellipse at center, white, #cacfd2  ); --*/
 
+
 }
+
 
 h1 {
     font-family: 'Unica One' ;
@@ -92,10 +95,19 @@ left: 35PX;
 /*/////////////////////////////////////////////////////////////////////*/
 
 
+
+iframe {
+    width: 640px;
+    height: 450px;
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 20px;
+
+}
+
 iframe {
     border : 1px solid #707b7c ;
     box-shadow:  2px 2px 2px #bfc9ca;
-    margin-top: 20px;
    
 }
 
@@ -462,6 +474,23 @@ position: relative;
     margin-right: auto;
     display: block;
 
+
+}
+
+footer {
+
+    width: 100%; 
+    background-color:  #E5E7E9   ;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
 
 /*/////////////////////////////////////////////////////////////////////*/
