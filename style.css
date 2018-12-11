@@ -522,11 +522,13 @@ footer p {
 }
 
 
+.rond {
+    display: flex;
+    justify-content: space-between; 
+}
 
 .rond1  {
-    position: fixed;
-    top:10%;
-   left: 18%;
+ 
     width:120px;
     height :120px;
     -webkit-border-radius:100px;
@@ -539,9 +541,7 @@ footer p {
 }
 
 .rond2  {
-    position: fixed;
-    top:30%;
-   left: 18%;
+  
     width:120px;
     height :120px;
     -webkit-border-radius:100px;
@@ -554,9 +554,7 @@ footer p {
 }
 
 .rond3  {
-    position: fixed;
-    top:50%;
-    right: 50%;
+    
     width : 120px;
     height :120px;
     -webkit-border-radius:100px;
@@ -569,9 +567,7 @@ footer p {
 }
 
 .rond4  {
-    position: fixed;
-    top:70%;
-    right: 50%;
+  
     width:120px;
     height :120px;
     -webkit-border-radius:100px;
@@ -609,25 +605,25 @@ footer p {
 
 .bleu h3 {
 
-font-size: 18px;
+font-size: 15px;
 }
 
 
 .jaune  h3{
 
-font-size: 18px;
+font-size: 15px;
 
 }
 
 
 .vert h3 {
-font-size: 18px;
+font-size: 15px;
 
 }
 
 
 .rouge h3 {
 
-font-size: 18px;
+font-size: 15px;
 
 }
