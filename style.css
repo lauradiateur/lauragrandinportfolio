@@ -525,12 +525,13 @@ footer p {
 #conteneur8 {
     display: flex;
     flex-direction: column;
+    align-content: center;
  
 }
 
 .rond1  {
  
- width:150px;
+    width:150px;
     height :150px;
     position: relative;
    
