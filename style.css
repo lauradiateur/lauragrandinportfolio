@@ -530,54 +530,32 @@ footer p {
 
 .rond1  {
  
-    width:120px;
-    height :120px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    border-radius:100px;
-    display: block;
+ width:150px;
+    height :150px;
     position: relative;
    
 }
 
 .rond2  {
   
-    width:120px;
-    height :120px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    border-radius:100px;
-    display: block;
+   width:150px;
+    height :150px;
     position: relative;
-   
 }
 
 .rond3  {
     
-    width : 120px;
-    height :120px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    border-radius:100px;
-    display: block;
+    width:150px;
+    height :150px;
     position: relative;
    
 }
 
 .rond4  {
   
-    width:120px;
-    height :120px;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    border-radius:100px;
-    display: block;
-
-   position: relative;
+    width:150px;
+    height :150px;
+    position: relative;
 }
 
 .perso {
