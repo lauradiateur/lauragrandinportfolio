@@ -616,13 +616,18 @@ footer {
     width: 100%; 
     background-color:  #E5E7E9   ;
     height: 30px;
-    position: absolute;
     bottom: 0; 
    
 
 }
 
 
+.retour2 {
+    
 
+    text-align: center;
+    
+    
+  }
 
 }
