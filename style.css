@@ -505,8 +505,8 @@ body {
 
     top:  10%;
     left: 30%;
-    width:150px;
-    height :150px;
+    width:120px;
+    height :120px;
     position: fixed;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
@@ -519,10 +519,10 @@ body {
 
 .rond2  {
   
-  top:  30%;
+  top:  35%;
     left: 30%;
-    width:150px;
-    height :150px;
+    width:120px;
+    height :120px;
     position: fixed;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
@@ -536,10 +536,10 @@ body {
 
 .rond3  {
     
-  top:  50%;
+  top:  60%;
     left: 30%;
-    width:150px;
-    height :150px;
+    width:120px;
+    height :120px;
     position: fixed;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
@@ -553,10 +553,10 @@ body {
 
 .rond4  {
   
-    top:  70%;
+    top:  85%;
     left: 30%;
-    width:150px;
-    height :150px;
+    width:120px;
+    height :120px;
     position: fixed;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
