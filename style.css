@@ -529,22 +529,37 @@ body {
  
     width:150px;
     height :150px;
-    position: fixed;
+    position: absolute;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
+    display: block;
    
 }
 
 .rond2  {
   
-   width:150px;
+ width:150px;
     height :150px;
-    position: fixed;
+    position: absolute;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
+    display: block;
 }
 
 .rond3  {
     
-    width:150px;
+     width:150px;
     height :150px;
-     position: fixed;
+    position: absolute;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
+    display: block;
    
 }
 
@@ -552,7 +567,12 @@ body {
   
     width:150px;
     height :150px;
-    position: fixed;
+    position: absolute;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
+    display: block;
 }
 
 .perso {
@@ -586,6 +606,8 @@ h1 {
 footer p {
     text-align: center;
     font-size: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
@@ -593,7 +615,7 @@ footer {
 
     width: 100%; 
     background-color:  #E5E7E9   ;
-    height: 20px;
+    height: 30px;
     position: absolute;
     bottom: 0; 
    
