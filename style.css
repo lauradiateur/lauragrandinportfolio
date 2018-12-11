@@ -503,7 +503,7 @@ footer p {
 @media only screen and (max-device-width:480px) {
  
 body {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 #conteneur6 {
