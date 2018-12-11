@@ -524,7 +524,6 @@ footer p {
 
 #conteneur8 {
     display: flex;
-    justify-content: center;
     flex-direction: column;
  
 }
@@ -538,7 +537,7 @@ footer p {
     -o-border-radius:100px;
     border-radius:100px;
     display: block;
-
+    position: relative;
    
 }
 
@@ -551,7 +550,7 @@ footer p {
     -o-border-radius:100px;
     border-radius:100px;
     display: block;
-
+    position: relative;
    
 }
 
@@ -564,7 +563,7 @@ footer p {
     -o-border-radius:100px;
     border-radius:100px;
     display: block;
-
+    position: relative;
    
 }
 
@@ -578,7 +577,7 @@ footer p {
     border-radius:100px;
     display: block;
 
-   
+   position: relative;
 }
 
 .perso {
