@@ -619,5 +619,54 @@ footer p {
     margin-bottom: 5px;
 }
 
+.bleu h3 {
+
+margin: 100px;
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Unica One', cursive;
+position: relative;
+top: -45px;
+left: -91PX;
+}
+
+
+.jaune  h3{
+margin: 100px;
+color: white ;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Unica One';
+position: relative;
+top: -45px;
+left: -70PX;
+}
+
+
+.vert h3 {
+margin: 100px;
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Unica One';
+position: relative;
+top: -45px;
+left: -90PX;
+
+}
+
+
+.rouge h3 {
+
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Unica One';
+position: relative;
+top: 30px;
+left: 25PX;
+}
+
 
 }
