@@ -581,11 +581,11 @@ h1 {
 }
 
 .imagepageprofonde{
- width: 100%
+ width: 50%
 }
 
 .textimage {
-    width: 100%;
+    width: 50%;
 }
 
 footer p {
@@ -599,12 +599,9 @@ footer {
     width: 100%; 
     background-color:  #E5E7E9   ;
     height: 50px;
-    bottom: 0;
-   position: absolute;
+    position: absolute;
     bottom: 0; 
-    left: 0; 
-    right: 0
-    
+   
 
 }
 
