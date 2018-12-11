@@ -474,7 +474,7 @@ footer p {
 }
 
 
-@media only screen and (max-device-width:600px) {
+@media only screen and (max-device-width:480px) {
  
 body {
     position: relative;
@@ -615,7 +615,7 @@ footer {
 
 
 footer p {
-    margin-top: 5px;
+    margin-top: 8px;
     margin-bottom: 5px;
 }
 
