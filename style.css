@@ -492,6 +492,7 @@ footer p {
     text-align: center;
     font-size: 12px;
 
+
 }
 
 @viewport {
@@ -502,6 +503,10 @@ footer p {
 
 @media only screen and (max-device-width:480px) {
  
+body {
+    position: relative;
+}
+
 
 #conteneur6 {
       display: flex;
@@ -575,6 +580,14 @@ h1 {
    font-size: 9px ;
 }
 
+.imagepageprofonde{
+ width: 100%
+}
+
+.textimage {
+    width: 100%;
+}
+
 footer p {
     text-align: center;
     font-size: 9px;
@@ -587,9 +600,15 @@ footer {
     background-color:  #E5E7E9   ;
     height: 50px;
     bottom: 0;
-    position: absolute;
+   position: absolute;
+    bottom: 0; 
+    left: 0; 
+    right: 0
     
 
 }
+
+
+
 
 }
