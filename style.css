@@ -2,10 +2,8 @@ body {
 	background-color:  #f3f3f3;
     font-family: 'Poppins', sans-serif;
 
-
+    position: relative;
      /*-- background-image: radial-gradient(closest-side ellipse at center, white, #cacfd2  ); --*/
-
-
 }
 
 
@@ -482,10 +480,10 @@ footer {
     width: 100%; 
     background-color:  #E5E7E9   ;
     height: 50px;
-   position: fixed;
+   
     bottom: 0;
-    
 
+    position: absolute;
 }
 
 footer p {
