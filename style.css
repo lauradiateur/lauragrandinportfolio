@@ -524,7 +524,6 @@ footer p {
 
 .rond {
     display: flex;
-    justify-content: space-between; 
     flex-direction: column;
 }
 
