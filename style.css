@@ -365,7 +365,7 @@ background: #4DB6AC;
     
     text-align: right;
     margin-top: 80px;
-    margin-right: 340px;
+    margin-right: 70px;
     
   }
 
@@ -516,13 +516,6 @@ body {
 
 .bloc1, .bloc2, .bloc3 {
     margin-bottom: 60px;
-}
-
-.retour2 {
-  text-align: right;
-  margin-top: 30px;
- margin-right: 10px;
- position: absolute;
 }
 
 
