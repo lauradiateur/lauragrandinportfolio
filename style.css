@@ -615,21 +615,13 @@ footer {
     width: 100%; 
     background-color:  #E5E7E9   ;
     height: 30px;
-    bottom: 0; 
+   
    
 
 }
 
-
-.retour2 {
-    
-
+ .retour2{
     text-align: center;
-    margin-top: 20px; 
-    margin-bottom: 20px;
-    
-    
-    
-  }
+ }
 
 }
