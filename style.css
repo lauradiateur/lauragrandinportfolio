@@ -518,11 +518,10 @@ body {
     margin-bottom: 60px;
 }
 
-.retour2 {
+.retour2 a {
     margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+   text-align: left;
+ 
 }
 
 
