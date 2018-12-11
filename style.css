@@ -520,10 +520,11 @@ body {
 
 .retour2 {
   text-align: right;
-  margin-top: 80px;
+  margin-top: 30px;
  margin-right: 10px;
- 
+ position: absolute;
 }
+
 
 
 #conteneur8 {
