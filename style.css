@@ -502,7 +502,9 @@ footer p {
 
 @media only screen and (max-device-width:480px) {
  
-
+body {
+    max-width: 500px;
+}
 
 #conteneur6 {
       display: flex;
