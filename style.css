@@ -432,10 +432,11 @@ position: relative;
 .textimage p {
     
     max-width: 800px;
-
+padding-bottom: 8%;
     text-align: justify;
       margin-left: auto;
     margin-right: auto;
+  
 }
 
 .imagepageprofonde img {
