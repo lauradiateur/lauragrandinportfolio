@@ -617,7 +617,9 @@ footer p {
 }
 
 
-@media only screen and (max-device-width:480px) {
+/* fin média */
+
+@media only screen and (max-device-width:490px) {
  
 body {
     position: relative;
@@ -630,9 +632,14 @@ body {
 
 }
 
-.bloc1, .bloc2, .bloc3 {
+.bloc1, .bloc2, .bloc3{
     margin-bottom: 60px;
 }
+
+.perso img {
+   visibility: hidden;
+}
+
 
 
 
@@ -662,7 +669,7 @@ body {
 
 .rond2  {
   
-  top:  30%;
+  top:  25%;
     left: 30%;
     width:120px;
     height :120px;
@@ -679,7 +686,7 @@ body {
 
 .rond3  {
     
-  top:  50%;
+  top:  40%;
     left: 30%;
     width:120px;
     height :120px;
@@ -696,6 +703,22 @@ body {
 
 .rond4  {
   
+    top:  55%;
+    left: 30%;
+    width:120px;
+    height :120px;
+    position: fixed;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
+    display: block;
+   
+    transition: background-color .3s ease;
+}
+
+.rond5  {
+  
     top:  70%;
     left: 30%;
     width:120px;
@@ -710,6 +733,21 @@ body {
     transition: background-color .3s ease;
 }
 
+.rond6  {
+  
+    top:  85%;
+    left: 30%;
+    width:120px;
+    height :120px;
+    position: fixed;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
+    display: block;
+   
+    transition: background-color .3s ease;
+}
 
 h1 {
  
@@ -805,8 +843,31 @@ top: 30px;
 left: 25PX;
 }
 
+.violet h3 {
+
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Unica One';
+position: relative;
+top: 35px;
+left: 27PX;
+}
+
+.gris h3 {
+
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Unica One';
+position: relative;
+top: 35px;
+left: 20PX;
+}
 
 }
+
+/* fin média */
 
 .retour {
   
