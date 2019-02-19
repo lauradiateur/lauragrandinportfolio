@@ -28,17 +28,35 @@ h2 {
 }
 
 .perso {
+    position: relative;
     text-align: center;
+    width: 100%;
     
+}
+.perso img {
+    transform: translateX(-13em);
+}
+.perso1 {
+    position: absolute;
+}
+
+.perso2 {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+.imageShow {
+    opacity: 1 !important;
 }
 
 .home  img {
     width: 30px;
     height: 30px;
     margin-top: 22px;
-
+    
 
 }
+
 
 #conteneurretour {
    display: flex;
@@ -47,14 +65,15 @@ h2 {
 
 /*/////////////////////////////////////////////////////////////////////*/
 
-.rond1:hover, .rond2:hover, .rond3:hover, .rond4:hover {background-color: #D8D8D8}
+.rond1:hover, .rond2:hover, .rond3:hover, .rond4:hover, .rond5:hover, .rond6:hover {background-color: #D8D8D8}
 
-.rond1:active, .rond2:active, .rond3:active, .rond4:active  {
+.rond1:active, .rond2:active, .rond3:active, .rond4:active, .rond5:hover, .rond6:hover {
  
     transform: translateY(4px);
     background-color: #D8D8D8;
     transition: background-color .4s ease;
 }
+
 
 /*/////////////////////////////////////////////////////////////////////*/
 .bleu h3 {
@@ -96,6 +115,28 @@ left: -78PX;
 
 
 .rouge h3 {
+
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Unica One';
+position: relative;
+top: 45px;
+left: 35PX;
+}
+
+.violet h3 {
+
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Unica One';
+position: relative;
+top: 45px;
+left: 38PX;
+}
+
+.gris h3 {
 
 color: white;
 text-decoration: none;
@@ -157,8 +198,8 @@ margin-top: 20px;
     
 .rond2{
     position: fixed;
-    top: 200px;
-    left: 400px;
+    top: 100px;
+    left: 420px;
     background-color: #FFD54F ;
     width:150px;
     height:150px;
@@ -174,8 +215,8 @@ margin-top: 20px;
 /*AUDIOVISUEL*/
 .rond3{
      position: fixed;
-    top: 200px;
-    right: 400px;
+    top: 100px;
+    right: 420px;
     background-color:  #D4E157;
     width:150px;
     height:150px;
@@ -204,7 +245,44 @@ margin-top: 20px;
     display: inline-block;
     transition: background-color .3s ease;
 }
-    
+   
+/*DESSIN PERSO*/
+   .rond5{
+
+    position: fixed;
+    top: 250px;
+    left: 250px;
+    background-color:#D1C4E9;
+    width:150px;
+    height :150px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
+    display: inline-block;
+  
+    transition: background-color .3s ease;
+}
+
+/*JEUX VIDEO*/
+.rond6{
+
+    position: fixed;
+    top: 250px;
+    right: 250px;
+    background-color: #CACFD3;
+    width:150px;
+    height :150px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
+    display: inline-block;
+  
+    transition: background-color .3s ease;
+}
+
+
 /*/////////////////////////////////////////////////////////////////////*/
 
 #conteneur {
@@ -250,6 +328,57 @@ margin-top: 20px;
     
 
 }
+
+.conteneurvideo4 {
+   
+   margin-left: auto;
+    margin-right: auto;
+     width: 800px;
+    height: 1050px;
+    background: #CACFD3;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+.conteneurvideo5 {
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 880px;
+    background:#CACFD3;
+    margin-bottom: 50px;
+
+}
+
+.conteneurvideo6 {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 1080px;
+    background: #CACFD3;
+    
+
+}
+
+.conteneurimagesjeux {
+    display: flex; 
+    justify-content: space-around;
+    margin-top : 10px;
+}
+
+
+.conteneurimagesjeux img {
+    width: 20%;
+    height: 20%;
+}
+
 
 .conteneur3 
 {
@@ -414,6 +543,9 @@ margin-bottom: 50px;
 }
 
 
+
+
+
 .bloc1:hover .blocimage {
   opacity: 0.1;
 }
@@ -469,42 +601,15 @@ padding-bottom: 8%;
 
 }
 
-footer {
-
-    width: 100%; 
-    background-color:  #E5E7E9   ;
-    height: 50px; 
-    position: absolute;
-}
-
-.DEUX footer {
-
-    width: 100%; 
-    background-color:  #E5E7E9   ;
-    height: 50px; 
-    position: absolute;
-    margin-top: 30px!important;
-}
-
-.TROIS footer {
-
-    width: 100%; 
-    background-color:  #E5E7E9   ;
-    height: 50px; 
-    position: absolute;
-    margin-top: 60px!important;
-}
-
-
-
 footer p {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 18px;
-    margin-bottom: 10px;
-
+    color: grey;  
+    bottom: 0px;
+    position: absolute;
+    font-size: 13px;
+    margin-left: 41%!important;
 
 }
+
 
 @viewport {
    width: device-width; /* largeur du viewport */
@@ -605,10 +710,6 @@ body {
     transition: background-color .3s ease;
 }
 
-.perso {
-   display: none;
-    
-}
 
 h1 {
  

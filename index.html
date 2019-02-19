@@ -16,34 +16,59 @@
 
 <body>
 
-
 <h1>Laura Grandin - portfolio</h1>
 <h2 class="description">Etudiante en DUT Métiers du Multimédia et de l'Internet</h2>
 
 
-
 <div id="conteneur8">
-<div class="bleu"><a href="sketchnote.html"><div class="rond1"> <h3>sketchnotes</h3></div></a></div>
+<div class="bleu"><a href="sketchnote.html"><div class="rond1 rond"> <h3>sketchnotes</h3></div></a></div>
 
-<div class="jaune"><a href="projet.html"><div class="rond2"> <h3>projets</h3></div></a></div>
+<div class="jaune"><a href="projet.html"><div class="rond2 rond"> <h3>projets</h3></div></a></div>
 
-<div class="vert"><a href="audiovisuel.html"><div class="rond3"> <h3>audiovisuel</h3></div></a></div>
+<div class="vert"><a href="audiovisuel.html"><div class="rond3 rond"> <h3>audiovisuel</h3></div></a></div>
 
-<div class="rouge"><a href="apropos.html"><div class="rond4"><h3>à propos</h3></div></a></div>
+<div class="rouge"><a href="apropos.html"><div class="rond4 rond"><h3>à propos</h3></div></a></div>
+
+<div class="violet"><a href="perso.html"><div class="rond5 rond"><h3>dessins</h3></div></a></div>
+
+<div class="gris"><a href="jeuxvideo.html"><div class="rond6 rond"><h3>jeux video</h3></div></a></div>
+
 </div>
 
-<div class="perso"><img src="https://res.cloudinary.com/decbnidmq/image/upload/v1544476546/lauragrandin.png"  alt="Illustration représentant Laura Grandin"  /></div>
+<div class="perso">
+
+	<img src="https://res.cloudinary.com/decbnidmq/image/upload/v1544476546/lauragrandin.png"  alt="Illustration représentant Laura Grandin" class="perso1" />
+
+	<img src="https://res.cloudinary.com/decbnidmq/image/upload/v1549899142/lauragrandin2.png"  alt="Illustration représentant Laura Grandin" class="perso2" />
+
+</div>
 
 
+
+<script type="text/javascript">
+
+	const ronds = document.getElementsByClassName("rond");
+	const imageToShow = document.querySelector(".perso2");
+	
+	for(rond of ronds){
+
+		rond.addEventListener("mouseover", () => {
+			imageToShow.classList.add("imageShow");
+		})
+
+		rond.addEventListener("mouseleave", () => {
+			imageToShow.classList.remove("imageShow");
+		})
+	}
+	
+</script>
+
+<footer>
+				
+	<p>© Laura Grandin, 2018 - Tous droits réservés</p>
+	
+</footer>
 
 </body>
-
-<div class="DEUX">
-<footer>
-
-  <p>© Laura Grandin, 2018 - Tous droits réservés </p>
-  
-</footer>
-</div>
-
 </html>
+
