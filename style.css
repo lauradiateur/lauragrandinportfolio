@@ -1,6 +1,6 @@
 body {
 	background-color:  #f3f3f3;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     position: relative;
      /*-- background-image: radial-gradient(closest-side ellipse at center, white, #cacfd2  ); --*/
@@ -16,13 +16,13 @@ h1 {
 
 h2 {
 
-   font-family: 'Poppins', sans-serif ;
+   font-family: 'Open Sans', sans-serif;
    font-size: 15px ;
 }
 
 
 .description {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 
 }
